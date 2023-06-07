@@ -47,9 +47,12 @@ public class Pluto {
 	public DiscordRP getDiscordRP() {
 		return DiscordRP;
 	}
-}```
+}
+```
 - Call the startup of your client in the file "Minecraft.java" where the game is started (find it with Ctrl + Shift + R).
 - Add the following code in different places where you want DiscordRP to update:
 ```java
   Pluto.getInstance().getDiscordRP().update("Playing Singleplayer", "In Game");
 ```
+## Other
+- My discord server: https://discord.gg/rNEQNvVR
